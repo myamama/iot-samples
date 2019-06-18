@@ -1,6 +1,6 @@
-# Azure IoT Sample - Child for IoT Edge provisioning
+# Azure IoT Sample - DPS support for leaf devices of IoT Edge
 
-This sample shows how you can assign leaf devices to an Edge parent by subscribing to DeviceCreated events in IoT Hub. We assume a parent device's name is used as suffix to the leaf device name with a dash (-) to separate the name (like so: `child1-parent1`).
+This sample shows how you can assign leaf devices to an IoT Edge parent by subscribing to DeviceCreated events in IoT Hub. DPS today does not support this out of the box. We assume a parent device's name is used as suffix to the leaf device name with a dash (-) to separate the name (like so: `child1-parent1`).
 
 ## Pre-requisites
 This sample assumes you have access to an Azure subscription and know how to use the Azure Portal and the CLI.
